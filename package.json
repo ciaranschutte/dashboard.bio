@@ -10,8 +10,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.8.6",
     "@astrojs/check": "^0.7.0",
+    "@vanilla-extract/css": "^1.15.1",
+    "astro": "^4.8.6",
     "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@vanilla-extract/vite-plugin": "^4.0.9"
   }
 }

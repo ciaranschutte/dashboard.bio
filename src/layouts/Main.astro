@@ -1,11 +1,12 @@
 ---
 import Base from "./Base.astro";
+import Layout from "../components/Layouts";
 ---
 
 <Base>
-  <div>
+  <Layout.Main>
     <nav>nav</nav>
     <slot />
     <footer>footer</footer>
-  </div>
+  </Layout.Main>
 </Base>
